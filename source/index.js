@@ -4,15 +4,18 @@ import { createTheme, CssBaseline, ThemeProvider } from '@material-ui/core';
 import App from './App';
 
 const customTheme = createTheme({
+  typography: {
+    button: {
+      textTransform: 'none'
+    }
+  },
   palette: {
-    type: 'dark',
     primary: {
       main: '#896beb',
     },
-    background: {
-      default: '#17121b',
-      paper: '#1d1920',
-    }
+  },
+  shape: {
+    borderRadius: 12,
   }
 });
 
