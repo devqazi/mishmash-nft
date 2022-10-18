@@ -5,9 +5,9 @@
   "description": "Converts Invoices from PDFs to Excel sheets",
   "main": "main/index.js",
   "scripts": {
-    "start": "npx electron .",
+    "start": "npx lite-server .",
     "dev": "npx webpack --mode development -w",
-    "build": "npx webpack --mode production & electron-builder"
+    "build": "npx webpack --mode production"
   },
   "keywords": [],
   "author": "",

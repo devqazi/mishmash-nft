@@ -9,7 +9,6 @@ const useStyles = makeStyles(theme => ({
     flexDirection: 'column',
     gap: theme.spacing(1),
   },
-
 }));
 
 const ConnectWalletDialog = ({ open, onConnect }) => {
