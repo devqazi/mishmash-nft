@@ -32,7 +32,7 @@ const useMinter = (CONTRACT_ADDRESS, ABI) => {
           existingTokens.push({
             ...lastTokenInfo,
             image: `https://gateway.pinata.cloud/ipfs/${lastTokenInfo.image}`,
-            url: `https://testnets.opensea.io/assets/${CONTRACT_ADDRESS}/${tokenId}`,
+            url: `https://testnets.opensea.io/assets/mumbai/${CONTRACT_ADDRESS}/${tokenId}`,
           });
           setMintedTokens(existingTokens);
         });
