@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const Contact = {
-  address : '0xA4A1074Ca2E37601c9B9c2A3d129cF47A7fD1800',
+  address : '0x1323796eBF58E9D5D1C7665004aeE79210E76d43',
   abi: contractFile.abi,
 }
 
