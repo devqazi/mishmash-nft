@@ -65,6 +65,7 @@ const useMinter = (CONTRACT_ADDRESS, ABI) => {
         const signer = provider.getSigner();
         const connectedContract = new ethers.Contract(CONTRACT_ADDRESS, ABI, signer);
         let nftTxn = await connectedContract.makeAnEpicNFT(name, desc, `ipfs://${image}`, attribs);
+        console.log(nftTxn);
         await nftTxn.wait();
       }
     } catch (error) {
