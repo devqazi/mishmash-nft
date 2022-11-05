@@ -49,9 +49,9 @@ const App = () => {
     mintNewToken
   ] = useMinter(Contact.address, Contact.abi);
   
-  const handleMint = (name, desc, image) => {
+  const handleMint = (name, desc, image, attribs) => {
     setMintForm(false);
-    mintNewToken(name, desc, image);
+    mintNewToken(name, desc, image, attribs);
   }
 
   return (
